@@ -1,20 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints 10 times the alphabet, in lowercase
- *
- * Return: no return
+ * add - a function that adds two integers and returns the result
+ * @a: first integer
+ * @b: second integer
+ * Return: the added result
  */
 
-void print_alphabet_x10(void)
+int add(int a, int b)
 {
-	int i;
-	char c;
-
-	for (i = 1; i <= 10; i++)
-	{
-	for (c = 'a'; c <= 'z'; c++)
-		_putchar(c);
-	_putchar('\n');
-	}
+	return (a + b);
 }
