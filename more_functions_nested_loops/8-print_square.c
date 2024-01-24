@@ -10,10 +10,10 @@ void print_square(int size)
 
 	if (size > 0)
 	{
-		do
-		{
+		do {
 			z = 0;
-			while (z < size){
+			while (z < size)
+			{
 				_putchar('#');
 				z++;
 			}
