@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * print_line - draw straight line in terminal
  * @n: length of line
  * Return: zero
