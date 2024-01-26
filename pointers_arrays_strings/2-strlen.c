@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _strlen - returns string leght
+ * _strlen - returns string leght
  * @s: sting length parameter
  * Return: sting lenth value
  */
