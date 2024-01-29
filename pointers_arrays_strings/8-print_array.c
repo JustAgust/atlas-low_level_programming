@@ -11,9 +11,13 @@ void print_array(int *a, int n)
 	for (i = 0; i < n; i++)
 	{
 		if (i != (n - 1))
-			printf("%d, ", a[i]);
+			_putchar("%d, ", a[i]);
 		else
-			printf("%d", a[i]);
+			_putchar("%d", a[i]);
 	}
+<<<<<<< HEAD
 	printf("\n");
+=======
+	_putchar('\n');
+>>>>>>> parent of 25bc119 (8-print_array.c)
 }
