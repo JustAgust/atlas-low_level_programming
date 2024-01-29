@@ -4,24 +4,30 @@
  * @s: input string
  * Return: an integer.
  */
-int _atoi(char *s) {
-    int result = 0;
-    int sign = 1;
-    int i;
-
-    for (i = 0; s[i] != '\0'; i++) {
-        if (s[i] == '-')
-            sign *= -1;
-        else if (s[i] >= '0' && s[i] <= '9')
-            break;
-    }
-
-    for (; s[i] >= '0' && s[i] <= '9'; i++) {
-        if (result > (sign == -1 ? -(1 << 31) / 10 : ((1 << 31) - 1) / 10)) {
-            return sign == -1 ? -(1 << 31) : ((1 << 31) - 1);
-        }
-        result = result * 10 + (s[i] - '0');
-    }
-
-    return sign * result;
+int _atoi(char *s)
+{
+	unsigned int result = 0;
+	int sign = 1;
+	int firstnum = 0;
+	while (*s != '\0')
+	{
+		if (*s == '-')
+		{
+			(sign = sign * -1);
+		}
+		else if (*s >= 48 && *s <= 57)
+		{
+			result = result * 10 + (*s - 48);
+			firstnum = 1;
+		}
+		else if (*s == '+' || *s == ' ')
+		{
+		}
+		else if (firstnum == 1)
+		{
+			break;
+		}
+		s++;
+	}
+	return (result * sign);
 }
