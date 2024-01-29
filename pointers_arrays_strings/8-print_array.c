@@ -15,5 +15,5 @@ void print_array(int *a, int n)
 		else
 			_putchar("%d", a[i]);
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
