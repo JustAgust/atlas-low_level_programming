@@ -1,6 +1,7 @@
 #include "main.h"
+#include <limits.h>
 /**
- * _atoi - a funtion that convert a string to an integer
+ * _atoi - a funtion that converts a string to an integer
  * @s: input string
  * Return: an integer.
  */
