@@ -4,6 +4,7 @@
  * @dest: string to be replaced
  * @src: string that will be copied
  * @n: bytes to be used
+ * Return: copied string
  */
 char *_strncpy(char *dest, char *src, int n)
 {
