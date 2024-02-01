@@ -10,13 +10,13 @@ char *leet(char *str)
 	char *A = "AEOTL", *a = "aeotl", *n = "43071";
 	
 	while (str[d] != '\0')
+	{
+		for (b = 0; b < 5; b++)
 		{
-		for (b = 0; b < 5, b++)
-		{
-		if (str[d] == A[b] || str[d] == a[b])
-		str[d] = n[b];
+			if (str[d] == A[b] || str[d] == a[b])
+				str[d] = n[b];
 		}
-	d++;
-		}
+		d++;
+	}
 	return (str);
-	}	
+}	
