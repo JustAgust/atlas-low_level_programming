@@ -25,10 +25,11 @@ char *cap_string(char *cap)
 			else if (*ptr == '(' || *ptr == ')' || *ptr == '{')
 				pun = 1;
 			else if (*ptr == '}')
+
 				pun = 1;
 			else 
 				pun = 0;
-			i++;
+			ptr++;
 			if (pun == 1 && *ptr >= 97 && *ptr <= 122)
 				*ptr = *ptr - 32;
 		}
