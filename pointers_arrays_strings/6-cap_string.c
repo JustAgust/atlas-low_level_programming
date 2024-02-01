@@ -33,6 +33,6 @@ char *cap_string(char *cap)
 				*ptr = *ptr - 32;
 		}
 		*ptr++ = '\0';
-		return (*ptr);
+		return (cap);
 }
 
