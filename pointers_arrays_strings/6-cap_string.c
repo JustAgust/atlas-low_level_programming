@@ -8,7 +8,7 @@ char *cap_string(char *cap)
 {
 	int i = 0, pun = 0;
 	char *ptr = cap;
-	
+
 		if (i == 0 && *ptr >= 97 && *ptr <= 122)
 		{
 			*ptr = *ptr - 32;
@@ -27,7 +27,7 @@ char *cap_string(char *cap)
 			else if (*ptr == '}')
 
 				pun = 1;
-			else 
+			else
 				pun = 0;
 			ptr++;
 			if (pun == 1 && *ptr >= 97 && *ptr <= 122)
