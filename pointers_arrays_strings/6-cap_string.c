@@ -4,7 +4,7 @@
  * @cap: input string
  * Return: modified string
  */
-char *cap_string(char *)
+char *cap_string(char *cap)
 {
 	int i = 0, pun = 0;
 	char *ptr = cap;
