@@ -29,11 +29,10 @@ char *cap_string(char *cap)
 				pun = 1;
 			else 
 				pun = 0;
-			*ptr++;
+			ptr++;
 			if (pun == 1 && *ptr >= 97 && *ptr <= 122)
 				*ptr = *ptr - 32;
 		}
-		cap[i++] = '\0';
+		*ptr = '\0';
 		return (cap);
 }
-
