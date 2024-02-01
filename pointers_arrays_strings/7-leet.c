@@ -6,17 +6,17 @@
  */
 char *leet(char *str)
 {
-	int a = 0, b;
+	int d = 0, b;
 	char *A = "AEOTL", *a = "aeotl", *n = "43071";
 	{
-		while (str[a] != '\0');
+		while (str[d] != '\0');
 		{
 		for (b = 0; b < 5, b++)
 		{
-		if (str[a] == A[b] || str[a] == a[b])
-		str[a] = n[b];
+		if (str[d] == A[b] || str[d] == a[b])
+		str[d] = n[b];
 		}
-	a++;
+	d++;
 		}
 	return (str);
 	}	
