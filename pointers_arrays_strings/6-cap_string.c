@@ -14,17 +14,17 @@ char *cap_string(char *cap)
 			*ptr = *ptr - 32;
 			i++;
 		}
-		while (*ptr <= '\0')
+		while (*ptr != '\0')
 		{
-			if ( *ptr == ' ' || *ptr == '\t' || *ptr == '\n')
+			if (*ptr == ' ' || *ptr == '\t' || *ptr == '\n')
 				pun = 1;
-			else if ( *ptr == ',' || *ptr == ';' || *ptr == '.')
+			else if (*ptr == ',' || *ptr == ';' || *ptr == '.')
 				pun = 1;
-			else if ( *ptr == '!' || *ptr == '?' || *ptr == '"')
+			else if (*ptr == '!' || *ptr == '?' || *ptr == '"')
 				pun = 1;
-			else if ( *ptr == '(' || *ptr == ')' || *ptr == '{')
+			else if (*ptr == '(' || *ptr == ')' || *ptr == '{')
 				pun = 1;
-			else if ( *ptr == '}')
+			else if (*ptr == '}')
 				pun = 1;
 			else 
 				pun = 0;
