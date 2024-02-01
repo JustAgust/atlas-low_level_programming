@@ -32,7 +32,7 @@ char *cap_string(char *cap)
 			if (pun == 1 && *ptr >= 97 && *ptr <= 122)
 				*ptr = *ptr - 32;
 		}
-		*ptr++ = '\0';
+		cap[i++] = '\0';
 		return (cap);
 }
 
