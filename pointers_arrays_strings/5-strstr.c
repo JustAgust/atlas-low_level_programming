@@ -3,7 +3,7 @@
  * _strstr - finds first occurance between two substrings
  * @haystack: main string to be examined
  * @needle: sub string to be searched
- * Return: returns a pointer to beginning of substring or NULL if string not found
+ * Return: returns a pointer to beginning of substring or NULL if not
  */
 char *_strstr(char *haystack, char *needle)
 {
