@@ -14,7 +14,7 @@ int _sqrt_recursion(int n)
  * calsq - calculates square root with recursion
  * @n: original num
  * @r: answer for square root
- * Rerturn: result
+ * Return: result
  */
 int calsq(int n, int r)
 {
