@@ -11,7 +11,7 @@ int is_prime_number(int n)
 	if (n == 2)
 		return (1);
 	else
-		return (whats_prime(n, 2));
+		return (pri_num(n, 2));
 }
 
 /**
@@ -20,20 +20,20 @@ int is_prime_number(int n)
  * @f: number to be checked
  * Returns: 1 or 0
  */
-int whats_prime(int n, int f)
+int pri_num(int n, int i)
 {
-	if (f < n)
+	if (i < n)
 	{
-		if (n % f == 0)
+		if (n % i == 0)
 		{
 			return (0);
 		}
 		else
 		{
-			f++;
-			return (whats_prime(n, f));
+		i++;
+		return (pri_num(n, i));
 		}
-		else
-			return (1);
 	}
+	else
+		return (1);
 }
