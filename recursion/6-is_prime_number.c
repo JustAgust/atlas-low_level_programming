@@ -4,7 +4,7 @@
  * @n: input int to be examined recursively
  * Return: 1 for prime 0 for not.
  */
-int is_prime_number(int n)
+int is_prime_number(int n, int i)
 {
   if (n <= 1)
     {
