@@ -20,9 +20,9 @@ int is_prime_number(int n)
  * @f: number to be checked
  * Returns: 1 or 0
  */
-int whats_prime(n, f)
+int whats_prime(int n, int f)
 {
-	if (n < f)
+	if (f < n)
 	{
 		if (n % f == 0)
 		{
