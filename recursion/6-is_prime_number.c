@@ -31,8 +31,8 @@ int whats_prime(n, f)
 		}
 		else
 		{
-			i++;
-			return (whats_prime(n, i));
+			f++;
+			return (whats_prime(n, f));
 		}
 		else
 			return (1);
