@@ -15,10 +15,10 @@ int is_prime_number(int n)
 }
 
 /**
- * whats_prime - uses recursion to find prime number
+ * pri_num - uses recursion to find prime number
  * @n: original number
  * @i: number to be checked
- * Returns: 1 or 0
+ * Return: 1 for prime 0 for not
  */
 int pri_num(int n, int i)
 {
