@@ -26,4 +26,15 @@ int whats_prime(n, f)
 	if (n < f)
 	{
 		if (n % f == 0)
-
+		{
+			return (0);
+		}
+		else
+		{
+			i++;
+			return (whats_prime(n, i));
+		}
+		else
+			return (1);
+	}
+}
