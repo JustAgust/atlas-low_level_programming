@@ -9,4 +9,5 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int _putchar(char c);
 int calsq(int n, int r);
+int whats_prime(int n, int f);
 #endif
