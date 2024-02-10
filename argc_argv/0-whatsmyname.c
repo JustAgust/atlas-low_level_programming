@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * argc_argv - takes input from argc and prints new name new line
+ * main - takes input from argc and prints new name new line
  * @argc: argument count
  * @argv: array containing the string
  * @i: input string
@@ -8,11 +8,9 @@
  */
 int main(int argc, char **argv)
 {
-	int i = 0;
-
-	while (i <= (argc - 1))
+	while (argc >=- 1)
 	{
-		printf("%s\n", argv[i]);
+		printf("%s\n", argv[0]);
 		++i;
 	}
 	return (0);
