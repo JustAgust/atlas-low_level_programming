@@ -8,10 +8,9 @@
  */
 int main(int argc, char **argv)
 {
-	while (argc >=- 1)
+	if (argc >=- 1)
 	{
 		printf("%s\n", argv[0]);
-		++i;
 	}
 	return (0);
 }
