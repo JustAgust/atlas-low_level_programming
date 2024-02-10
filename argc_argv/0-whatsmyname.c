@@ -3,7 +3,6 @@
  * main - takes input from argc and prints new name new line
  * @argc: argument count
  * @argv: array containing the string
- * @i: input string
  * Return: 0
  */
 int main(int argc, char **argv)
