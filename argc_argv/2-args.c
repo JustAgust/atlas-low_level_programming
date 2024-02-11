@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main - prints all args received
+/** 
+ * main - prints all args received
  * @argc: argument counter
  * @argv: string of args
  *Return: 0 = success
