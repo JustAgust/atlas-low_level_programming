@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - prints all args received
  * @argc: argument counter
  * @argv: string of args
