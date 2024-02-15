@@ -1,4 +1,4 @@
-// prototypes for malloc free
+/* prototypes for malloc free */
 #ifndef MAIN_H
 #define MAIN_H
 
