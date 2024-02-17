@@ -7,7 +7,7 @@
  * @b: sizeof
  * Return: returns address
  */
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
 	int *i;
 
