@@ -8,7 +8,7 @@
  * @n: first bytes in s2 to be appended to s1
  * Return: pointer pointing to newly allocate space
  */
-char *string_nconcat(char *s1, char s@, unsigned int n)
+char *string_nconcat(char *s1, char s2, unsigned int n)
 {
 	unsigned int i, j;
 	char*cc;
