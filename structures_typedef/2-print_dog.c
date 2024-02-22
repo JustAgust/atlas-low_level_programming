@@ -9,7 +9,7 @@
 char *check_null(char *s)
 {
 	if (s == NULL)
-		return "(nil)";
+		return ("(nil)");
 	else
 		return (s);
 }
