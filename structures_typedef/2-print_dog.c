@@ -2,9 +2,9 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- *@d: elements to print unless null
- *Return: no return
+ *check_null - checks to see if null
  *@s: value to check if null
+ *Return: returns null
  */
 char *check_null(char *s)
 {
@@ -13,6 +13,11 @@ char *check_null(char *s)
 	else
 		return (s);
 }
+/**
+ * print_dog - prints elements of d
+ * @d: elements to print
+ * Return: returns nothing
+ */
 void print_dog(struct dog *d)
 {
 	if (d != NULL)
