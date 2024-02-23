@@ -40,12 +40,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	for (int a = 0; a <= n; a++)
+	for (a = 0; a <= n; a++)
 		ndog->name[a] = name[a];
 
 	ndog->age = age;
 
-	for (int b = 0; b <= o; b++)
+	for (b = 0; b <= o; b++)
 		ndog->owner[b] = owner[b];
 
 	return (ndog);
