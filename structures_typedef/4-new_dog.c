@@ -15,8 +15,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	int n, o;
 	dog_t *ndog;
 
-	n = strlen(name);
-	o = strlen(owner);
+	n = strlen(name) + 1;
+	o = strlen(owner) + 1;
 	ndog = malloc(sizeof(struct dog));
 	if (ndog == NULL)
 	{
@@ -35,8 +35,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(ndog);
 		return (NULL);
 	}
-	strcpy(ndog->name, name);
+	strncpy(ndog->name, name, n);
 	ndog->age = age;
-	strcpy(ndog->owner, owner);
+	strncpy(ndog->owner, owner, o);
 	return (ndog);
 }
