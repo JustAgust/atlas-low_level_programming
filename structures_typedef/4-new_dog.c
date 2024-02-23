@@ -11,7 +11,7 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	int n = 0, o = 0;
+	int n = 0, o = 0, a, b;
 	dog_t *ndog;
 
 	while (name[n])
@@ -40,13 +40,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	for (int i = 0; i <= n; i++)
-		ndog->name[i] = name[i];
+	for (int a = 0; a <= n; a++)
+		ndog->name[a] = name[a];
 
 	ndog->age = age;
 
-	for (int i = 0; i <= o; i++)
-		ndog->owner[i] = owner[i];
+	for (int b = 0; b <= o; b++)
+		ndog->owner[b] = owner[b];
 
 	return (ndog);
 }
