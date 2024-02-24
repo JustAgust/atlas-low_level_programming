@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <sting.h>
+#include <string.h>
 /**
  *struct op - Struct op
  *
