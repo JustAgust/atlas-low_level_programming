@@ -1,6 +1,6 @@
 #include "3-calc.h"
 /**
- *get_op_func - selects correct function 
+ *get_op_func - selects correct function
  *@s: operator
  *Retrun: a pointer to correspond
  */
