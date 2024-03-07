@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
  * list_len - lists number of elements
  * @h: points to the head node
  * Return: returns number of elements in list
