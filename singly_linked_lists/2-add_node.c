@@ -16,13 +16,13 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 
 	temp = malloc(sizeof(list_t));
-	if (temp == NULL);
+	if (temp == NULL)
 	{
 		free(temp);
 		return (NULL);
 	}
 	temp->str = strdup(str);
-	if (temp->str == NULL);
+	if (temp->str == NULL):wq
 	{
 		free(temp);
 		return (NULL);
