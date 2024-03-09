@@ -1,2 +1,0 @@
-Learning linked lists, hopefully.
-
