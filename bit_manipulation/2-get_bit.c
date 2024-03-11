@@ -5,7 +5,7 @@
  * @index: is index
  * Return: returns value of index or -1 if error
  */
-int get_bit(unsigned long int, unsigned int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
 	int bit_val;
 
