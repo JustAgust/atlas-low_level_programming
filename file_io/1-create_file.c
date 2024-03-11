@@ -7,11 +7,11 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int count, fd, w;
+	int fd, w, count;
 
 	if (filename == NULL)
 		return (-1);
-	fd = open(filename, O_WRONLY | O_APPEND);
+	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, 0600);
 	if (fd == -1)
 	{
 		close(fd);
@@ -26,7 +26,7 @@ int create_file(const char *filename, char *text_content)
 	w = write(fd, text_content, count);
 	if (w == -1)
 	{
-		close(fd);
+		close(w);
 		return (-1);
 	}
 	return (1);
