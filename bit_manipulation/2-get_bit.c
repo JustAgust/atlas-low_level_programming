@@ -2,6 +2,7 @@
 
 /**
  * get_bit - returns value of given bit at index
+ * @n: a given value
  * @index: is index
  * Return: returns value of index or -1 if error
  */
