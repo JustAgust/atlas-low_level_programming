@@ -3,7 +3,7 @@
  * flip_bits - calculates bits to flip to get from one number to another number
  * @n: first input number to be converted
  * @m: second input number to be converted
- * Return: number of bits needed 
+ * Return: number of bits needed
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
