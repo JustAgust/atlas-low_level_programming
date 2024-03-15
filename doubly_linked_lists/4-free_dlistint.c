@@ -4,7 +4,7 @@
  * @head: pointer to head of list, where to begin the attack!
  * Return: Success! technically returns nothing which is success.
  */
-void free_dlistint(dlist_t *head)
+void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *current;
 
