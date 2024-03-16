@@ -1,4 +1,4 @@
-Hash tables(in my words)! Is an indexed array(fixed size) that can utilizing linked lists and is made associative with the hash function.
+Hash tables(in my words)! Is an indexed array(fixed size) that can utilize linked lists and is made associative with the hash function.
 
 Wikipedia lists hash function's benefits as follows "Hash functions and their associated hash tables are used in data storage and retrieval applications to access data in a small and nearly constant time per retrieval. They require an amount of storage space only fractionally greater than the total space required for the data or records themselves. Hashing is a computationally and storage space-efficient form of data access that avoids the non-constant access time of ordered and unordered lists and structured trees, and the often exponential storage requirements of direct access of state spaces of large or variable-length keys."
 
